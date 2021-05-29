@@ -5,10 +5,10 @@
 #include "esp_system.h"
 #include "esp_spi_flash.h"
 
-#include "station/station.h"
+#include "server.h"
 
 void app_main(void)
 {
-    // connect to Wi-Fi
-    app_station();
+    // start http server
+    app_server();
 }
