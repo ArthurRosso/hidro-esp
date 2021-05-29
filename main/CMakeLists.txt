@@ -1,0 +1,1 @@
+idf_component_register(SRCS "main.c" "station/station.h" "station/station.c" INCLUDE_DIRS "station")
