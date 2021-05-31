@@ -3,7 +3,7 @@
 static const char *TAG = "http_server";
 
 static const httpd_uri_t get_status = {
-    .uri       = "/get/status",
+    .uri       = "/salvaMedicao",
     .method    = HTTP_GET,
     .handler   = get_status_handler,
 };
