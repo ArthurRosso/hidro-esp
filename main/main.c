@@ -25,7 +25,6 @@
 #include "esp_http_client.h"
 
 #include "station.h"
-#include "server.h"
 
 static const char *TAG = "HTTP_CLIENT";
 
@@ -85,10 +84,8 @@ esp_err_t post_data (){
 
 void app_main(void)
 {
-    //printf("Ok");
     // connect to internet
-    //ESP_ERROR_CHECK(app_station());
-    app_server();
+    ESP_ERROR_CHECK(app_station());
 
     while (1){
        ESP_ERROR_CHECK(post_data());

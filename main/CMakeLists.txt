@@ -1,1 +1,1 @@
-idf_component_register(SRCS "main.c" "station.h" "station.c" "server.h" "server.c" "routes.h" "routes.c" INCLUDE_DIRS "")
+idf_component_register(SRCS "main.c" "station.h" "station.c" INCLUDE_DIRS "")

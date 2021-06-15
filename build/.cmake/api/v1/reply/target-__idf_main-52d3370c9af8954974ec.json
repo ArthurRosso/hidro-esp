@@ -579,9 +579,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2,
-				4,
-				6
+				2
 			]
 		}
 	],
@@ -715,18 +713,14 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2,
-				4,
-				6
+				2
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1,
-				3,
-				5
+				1
 			]
 		}
 	],
@@ -747,28 +741,6 @@
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"path" : "main/station.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "main/server.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "main/server.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "main/routes.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 2,
-			"compileGroupIndex" : 0,
-			"path" : "main/routes.c",
 			"sourceGroupIndex" : 0
 		}
 	],

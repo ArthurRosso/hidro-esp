@@ -1515,7 +1515,7 @@
 				{
 					"directoryIndex" : 10,
 					"id" : "__idf_app_update::@cc3b426666063acc9674",
-					"jsonFile" : "target-__idf_app_update-99957e16a10e5f2ba738.json",
+					"jsonFile" : "target-__idf_app_update-fc9844c7a7c7ee83e0ae.json",
 					"name" : "__idf_app_update",
 					"projectIndex" : 1
 				},
@@ -1795,7 +1795,7 @@
 				{
 					"directoryIndex" : 83,
 					"id" : "__idf_main::@7368607ed66887415643",
-					"jsonFile" : "target-__idf_main-819a9ffc89c2d71c8e3d.json",
+					"jsonFile" : "target-__idf_main-52d3370c9af8954974ec.json",
 					"name" : "__idf_main",
 					"projectIndex" : 1
 				},
