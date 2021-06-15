@@ -1,22 +1,9 @@
 #include "routes.h"
-#include "esp_wifi.h"
-#include <esp_wifi_types.h>
-/*
-static char *convert(uint8_t *a)
+
+static float get_medicao()
 {
-  char* buffer2;
-  int i;
-
-  buffer2 = malloc(9);
-  if (!buffer2)
-    return NULL;
-
-  buffer2[8] = 0;
-  for (i = 0; i <= 7; i++)
-    buffer2[7 - i] = (((*a) >> i) & (0x01)) + '0';
-
-  return buffer2;
-}*/
+    return esp_timer_get_time()/3.14;
+}
 
 esp_err_t get_status_handler(httpd_req_t *req)
 {
@@ -38,7 +25,7 @@ esp_err_t get_status_handler(httpd_req_t *req)
 
     httpd_resp_set_hdr(req, "Content-Type", "application/json");
 
-    snprintf(response, sizeof(response), "{\"Mac\": %s \"Litros\": %f}", strmac, 27.45);
+    snprintf(response, sizeof(response), "{\"Mac\": %s \"Litros\": %f}", strmac, get_medicao());
 
     return httpd_resp_send(req, response, HTTPD_RESP_USE_STRLEN);
 }

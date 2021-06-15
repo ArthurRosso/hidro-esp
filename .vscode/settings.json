@@ -1,4 +1,7 @@
 {
     "idf.port": "/dev/ttyUSB0",
-    "idf.flashType": "JTAG"
+    "idf.flashType": "UART",
+    "files.associations": {
+        "station.h": "c"
+    }
 }
