@@ -2,6 +2,8 @@
     "idf.port": "/dev/ttyUSB0",
     "idf.flashType": "UART",
     "files.associations": {
-        "station.h": "c"
+        "station.h": "c",
+        "chrono": "c",
+        "algorithm": "c"
     }
 }
